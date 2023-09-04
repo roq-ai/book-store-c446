@@ -1,0 +1,2322 @@
+[
+  {
+    "order": [
+      {
+        "id": "9de19719-71a6-410a-b1c9-c035a5b4548b",
+        "order_date": "2023-09-04T01:45:00.536Z",
+        "total_price": 41197,
+        "created_at": "2023-09-03T22:46:58.978Z",
+        "updated_at": "2023-09-03T19:15:20.198Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88ece54a-38c9-454c-817c-5d1c6ff6379e",
+        "order_date": "2023-09-04T05:25:28.060Z",
+        "total_price": 60008,
+        "created_at": "2023-09-03T14:48:28.787Z",
+        "updated_at": "2023-09-04T00:48:40.284Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9332688-dbf7-4534-ad86-7c4b381241b3",
+        "order_date": "2023-09-03T19:39:09.864Z",
+        "total_price": 566,
+        "created_at": "2023-09-03T17:46:31.077Z",
+        "updated_at": "2023-09-04T00:31:50.485Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78a09e4b-c584-4c01-b12b-5c4fed7a12e7",
+        "order_date": "2023-09-04T07:04:19.223Z",
+        "total_price": 48470,
+        "created_at": "2023-09-03T15:17:57.283Z",
+        "updated_at": "2023-09-03T21:09:06.234Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa1a65e1-14c5-4f5a-acdd-19c58ca4070d",
+        "order_date": "2023-09-03T17:58:59.887Z",
+        "total_price": 68235,
+        "created_at": "2023-09-04T07:06:01.350Z",
+        "updated_at": "2023-09-04T00:15:42.336Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "8f4da222-646f-483b-8550-70c41e479253",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": 38967,
+        "published_date": "2023-09-03T16:40:10.089Z",
+        "isbn": "9780142437348",
+        "created_at": "2023-09-03T18:16:25.509Z",
+        "updated_at": "2023-09-03T23:29:27.393Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "705701dc-f9f8-444c-aae7-3a0bd9ced8e6",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "price": 38017,
+        "published_date": "2023-09-03T15:28:51.270Z",
+        "isbn": "9780060935467",
+        "created_at": "2023-09-04T05:44:50.431Z",
+        "updated_at": "2023-09-03T19:32:37.904Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "a16aaf8d-acf9-418f-84be-d57bfc323caa",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": 62672,
+        "published_date": "2023-09-03T12:40:30.037Z",
+        "isbn": "9780141439518",
+        "created_at": "2023-09-04T03:52:17.232Z",
+        "updated_at": "2023-09-03T21:26:41.075Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "2c293400-f496-4383-a795-29ef7b94c8b6",
+        "title": "1984",
+        "author": "George Orwell",
+        "price": 81804,
+        "published_date": "2023-09-03T11:20:27.045Z",
+        "isbn": "9780451524935",
+        "created_at": "2023-09-03T18:55:51.031Z",
+        "updated_at": "2023-09-03T18:01:55.230Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "e9473682-de8c-417d-983c-fe23c508dec8",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "price": 51118,
+        "published_date": "2023-09-03T10:42:06.667Z",
+        "isbn": "9780316769174",
+        "created_at": "2023-09-04T04:32:39.784Z",
+        "updated_at": "2023-09-04T03:32:25.644Z",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "901a3775-73a3-47ea-ba6f-c336450e9595",
+        "quantity": 33139,
+        "created_at": "2023-09-03T11:24:09.949Z",
+        "updated_at": "2023-09-04T05:59:27.685Z",
+        "book_id": "705701dc-f9f8-444c-aae7-3a0bd9ced8e6",
+        "order_id": "aa1a65e1-14c5-4f5a-acdd-19c58ca4070d"
+      },
+      {
+        "id": "1bf979f1-8cb0-4c43-aeca-ec0e7ef6446a",
+        "quantity": 8158,
+        "created_at": "2023-09-03T12:45:57.590Z",
+        "updated_at": "2023-09-04T04:17:42.307Z",
+        "book_id": "2c293400-f496-4383-a795-29ef7b94c8b6",
+        "order_id": "c9332688-dbf7-4534-ad86-7c4b381241b3"
+      },
+      {
+        "id": "5a8d0f85-4eb3-4434-840b-b2a096259ac0",
+        "quantity": 81555,
+        "created_at": "2023-09-03T19:43:55.390Z",
+        "updated_at": "2023-09-03T12:17:20.782Z",
+        "book_id": "2c293400-f496-4383-a795-29ef7b94c8b6",
+        "order_id": "88ece54a-38c9-454c-817c-5d1c6ff6379e"
+      },
+      {
+        "id": "0036d9b7-9fd2-428d-80ed-2932a21f7d8b",
+        "quantity": 40545,
+        "created_at": "2023-09-03T11:41:44.670Z",
+        "updated_at": "2023-09-04T02:00:37.365Z",
+        "book_id": "2c293400-f496-4383-a795-29ef7b94c8b6",
+        "order_id": "78a09e4b-c584-4c01-b12b-5c4fed7a12e7"
+      },
+      {
+        "id": "9d6acef8-06e3-4eaa-abdd-ab47f84893bb",
+        "quantity": 10721,
+        "created_at": "2023-09-03T16:09:27.445Z",
+        "updated_at": "2023-09-04T03:32:39.069Z",
+        "book_id": "705701dc-f9f8-444c-aae7-3a0bd9ced8e6",
+        "order_id": "78a09e4b-c584-4c01-b12b-5c4fed7a12e7"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "b4bd15ae-08f6-4a44-899d-e5c19656e658",
+        "quantity": 9047,
+        "created_at": "2023-09-04T03:05:50.186Z",
+        "updated_at": "2023-09-04T05:19:43.963Z",
+        "book_id": "705701dc-f9f8-444c-aae7-3a0bd9ced8e6",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "53f55d1c-b887-48fb-8214-5333c2dd629f",
+        "quantity": 84262,
+        "created_at": "2023-09-04T00:26:04.878Z",
+        "updated_at": "2023-09-03T11:10:00.584Z",
+        "book_id": "8f4da222-646f-483b-8550-70c41e479253",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "e8a69156-9b48-46d3-9d85-f6a06d36e587",
+        "quantity": 1003,
+        "created_at": "2023-09-03T09:23:01.290Z",
+        "updated_at": "2023-09-03T21:56:00.297Z",
+        "book_id": "e9473682-de8c-417d-983c-fe23c508dec8",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "fcd38671-dcbd-43a1-af2d-d454eb7755f8",
+        "quantity": 70113,
+        "created_at": "2023-09-03T19:35:09.409Z",
+        "updated_at": "2023-09-03T09:14:51.117Z",
+        "book_id": "a16aaf8d-acf9-418f-84be-d57bfc323caa",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "0a51f265-c157-4e63-b845-55a5fffa86a2",
+        "quantity": 20499,
+        "created_at": "2023-09-03T16:07:10.377Z",
+        "updated_at": "2023-09-04T03:51:13.134Z",
+        "book_id": "e9473682-de8c-417d-983c-fe23c508dec8",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6ac7061d-2cc3-4fac-b751-50d18812d9d4",
+        "email": "Shaun_Sporer54@yahoo.com",
+        "firstName": "Alverta",
+        "lastName": "Kuhn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/980.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "865f4595-40cd-4761-8651-be19ed381d0b",
+        "email": "Quinten.Reilly@hotmail.com",
+        "firstName": "Westley",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21665655",
+        "tenantId": null
+      },
+      {
+        "reference": "d433e7da-7ead-4248-bae7-e9b4f76e49f9",
+        "email": "Wilmer_Welch@hotmail.com",
+        "firstName": "Zaria",
+        "lastName": "Cormier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/880.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8faddbb3-aaeb-47cf-9198-dde02384bedf",
+        "email": "Mabelle.Pagac29@hotmail.com",
+        "firstName": "Heber",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/304.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "655e0bf5-8047-4c93-8d18-9fc5a9043dc3",
+        "email": "Gaetano31@hotmail.com",
+        "firstName": "Amina",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/463.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "cea5a02d-5d3c-41a5-9a8f-88567a33ce32",
+        "order_date": "2023-09-03T17:39:25.761Z",
+        "total_price": 12871,
+        "created_at": "2023-09-03T11:13:54.982Z",
+        "updated_at": "2023-09-03T23:50:50.155Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8f6b5d8-c394-4a09-a9db-58c55d37c9fe",
+        "order_date": "2023-09-04T01:12:12.394Z",
+        "total_price": 44453,
+        "created_at": "2023-09-03T10:20:09.198Z",
+        "updated_at": "2023-09-04T05:13:13.208Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a0ff7ff-f68f-4d35-ac70-d3fc4ec16fe0",
+        "order_date": "2023-09-03T08:32:56.582Z",
+        "total_price": 86606,
+        "created_at": "2023-09-03T10:30:59.893Z",
+        "updated_at": "2023-09-03T21:41:01.347Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56905fbc-366b-4654-a91b-98fdbedeff85",
+        "order_date": "2023-09-03T09:14:20.145Z",
+        "total_price": 62744,
+        "created_at": "2023-09-03T13:17:07.634Z",
+        "updated_at": "2023-09-03T21:11:34.999Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e22e13b-1a8a-4112-b6cf-f22d676f1718",
+        "order_date": "2023-09-03T15:23:37.197Z",
+        "total_price": 23788,
+        "created_at": "2023-09-04T07:03:16.554Z",
+        "updated_at": "2023-09-03T11:28:27.997Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "949a132e-e668-4949-a514-1ee65ba9c617",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": 78532,
+        "published_date": "2023-09-03T11:58:01.216Z",
+        "isbn": "9780141182636",
+        "created_at": "2023-09-03T10:31:42.372Z",
+        "updated_at": "2023-09-04T04:05:33.477Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "753fd7a1-a45f-4aa4-8a2f-46cc26fcd4e5",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "price": 47153,
+        "published_date": "2023-09-04T01:12:47.236Z",
+        "isbn": "9780061120084",
+        "created_at": "2023-09-03T14:58:08.509Z",
+        "updated_at": "2023-09-03T15:23:36.404Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "79984e8b-11a8-4026-b342-612fbb6951c2",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": 81951,
+        "published_date": "2023-09-03T09:55:23.483Z",
+        "isbn": "9780141439518",
+        "created_at": "2023-09-03T16:39:04.594Z",
+        "updated_at": "2023-09-03T10:09:50.240Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "a7529959-3ab1-4cfa-ba21-4ec08da79476",
+        "title": "1984",
+        "author": "George Orwell",
+        "price": 28953,
+        "published_date": "2023-09-03T12:52:01.330Z",
+        "isbn": "9780451524935",
+        "created_at": "2023-09-04T06:36:39.499Z",
+        "updated_at": "2023-09-03T10:18:09.795Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "7fb17063-7813-4ad4-b0e8-e4cb5c1f926e",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "price": 93799,
+        "published_date": "2023-09-03T21:49:05.078Z",
+        "isbn": "9780316769488",
+        "created_at": "2023-09-03T17:09:59.426Z",
+        "updated_at": "2023-09-03T20:09:41.579Z",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "9aa56d02-8f6b-4677-82f8-b550964b0fa8",
+        "quantity": 6559,
+        "created_at": "2023-09-03T20:42:49.701Z",
+        "updated_at": "2023-09-03T08:52:51.195Z",
+        "book_id": "753fd7a1-a45f-4aa4-8a2f-46cc26fcd4e5",
+        "order_id": "56905fbc-366b-4654-a91b-98fdbedeff85"
+      },
+      {
+        "id": "635c94fd-ce68-43e2-810c-4f2e4b60d640",
+        "quantity": 55844,
+        "created_at": "2023-09-03T22:20:27.651Z",
+        "updated_at": "2023-09-03T13:41:27.081Z",
+        "book_id": "a7529959-3ab1-4cfa-ba21-4ec08da79476",
+        "order_id": "0a0ff7ff-f68f-4d35-ac70-d3fc4ec16fe0"
+      },
+      {
+        "id": "563c39c3-f9a5-4590-8076-c17a2fc56d6b",
+        "quantity": 79540,
+        "created_at": "2023-09-04T07:08:21.349Z",
+        "updated_at": "2023-09-03T13:22:01.709Z",
+        "book_id": "7fb17063-7813-4ad4-b0e8-e4cb5c1f926e",
+        "order_id": "0a0ff7ff-f68f-4d35-ac70-d3fc4ec16fe0"
+      },
+      {
+        "id": "85c8639a-3082-4903-b643-4fdd3d62fad1",
+        "quantity": 96825,
+        "created_at": "2023-09-03T21:57:58.769Z",
+        "updated_at": "2023-09-04T02:24:41.836Z",
+        "book_id": "7fb17063-7813-4ad4-b0e8-e4cb5c1f926e",
+        "order_id": "cea5a02d-5d3c-41a5-9a8f-88567a33ce32"
+      },
+      {
+        "id": "7a2da106-aa90-405d-9a7b-7540e3a8b1d6",
+        "quantity": 11140,
+        "created_at": "2023-09-04T03:14:49.454Z",
+        "updated_at": "2023-09-03T16:28:49.719Z",
+        "book_id": "79984e8b-11a8-4026-b342-612fbb6951c2",
+        "order_id": "6e22e13b-1a8a-4112-b6cf-f22d676f1718"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "f8de4eb4-286d-442a-a333-1a869b756e82",
+        "quantity": 99791,
+        "created_at": "2023-09-03T22:10:13.113Z",
+        "updated_at": "2023-09-03T18:01:19.548Z",
+        "book_id": "753fd7a1-a45f-4aa4-8a2f-46cc26fcd4e5",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "b6f2fbe4-17d3-475b-b43f-f405ce2f40c5",
+        "quantity": 58166,
+        "created_at": "2023-09-03T11:04:36.324Z",
+        "updated_at": "2023-09-03T12:04:54.931Z",
+        "book_id": "a7529959-3ab1-4cfa-ba21-4ec08da79476",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "9fe62336-c6eb-4648-994b-58abd094c093",
+        "quantity": 10360,
+        "created_at": "2023-09-03T07:48:23.147Z",
+        "updated_at": "2023-09-03T11:21:59.167Z",
+        "book_id": "79984e8b-11a8-4026-b342-612fbb6951c2",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "1ba0d177-53a1-4166-aa1e-9512e25e3a00",
+        "quantity": 98507,
+        "created_at": "2023-09-03T17:29:44.535Z",
+        "updated_at": "2023-09-03T10:10:24.509Z",
+        "book_id": "a7529959-3ab1-4cfa-ba21-4ec08da79476",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "65e7daec-b600-4e0b-bb16-0a66ed774c04",
+        "quantity": 31102,
+        "created_at": "2023-09-03T16:23:17.675Z",
+        "updated_at": "2023-09-04T05:35:44.458Z",
+        "book_id": "a7529959-3ab1-4cfa-ba21-4ec08da79476",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "04aa7c84-ca09-49bc-adb9-d0d440630e15",
+        "email": "Verdie.Hessel@gmail.com",
+        "firstName": "Letha",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/448.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ac8a29b4-224f-4e1f-9b50-172e8532fb92",
+        "email": "Darrick.Balistreri63@hotmail.com",
+        "firstName": "Orval",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/833745",
+        "tenantId": null
+      },
+      {
+        "reference": "38244533-76d1-4c91-94d9-202b7c16b4e7",
+        "email": "Sarai3@gmail.com",
+        "firstName": "Hubert",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/143.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c0462088-9990-4e09-b013-7c16466e6ca6",
+        "email": "Destiny.Stroman@gmail.com",
+        "firstName": "Jaeden",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72649740",
+        "tenantId": null
+      },
+      {
+        "reference": "ffdf14ab-2b55-41d9-8456-a7ec3e49d822",
+        "email": "Andreane_Harvey48@hotmail.com",
+        "firstName": "Jermain",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85638489",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "104b6212-04c3-4ba9-9918-be7a8e542d28",
+        "order_date": "2023-09-03T08:47:19.868Z",
+        "total_price": 50542,
+        "created_at": "2023-09-03T23:47:21.657Z",
+        "updated_at": "2023-09-03T09:21:29.114Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdd4ee93-0bac-42a9-8c8e-20c9efdc6cf8",
+        "order_date": "2023-09-04T03:52:01.418Z",
+        "total_price": 64701,
+        "created_at": "2023-09-04T03:02:53.150Z",
+        "updated_at": "2023-09-03T22:57:26.979Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c936392a-afc8-4b55-b304-52f514cc0b70",
+        "order_date": "2023-09-03T20:53:51.598Z",
+        "total_price": 59829,
+        "created_at": "2023-09-03T19:15:07.690Z",
+        "updated_at": "2023-09-03T11:00:41.044Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08923aec-f0b3-4f24-a554-3aced113b6e1",
+        "order_date": "2023-09-03T11:37:55.675Z",
+        "total_price": 16151,
+        "created_at": "2023-09-03T14:46:15.082Z",
+        "updated_at": "2023-09-04T04:44:00.338Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3446a31-03c9-4d81-baf1-a3e88a6b1736",
+        "order_date": "2023-09-03T21:42:42.010Z",
+        "total_price": 37798,
+        "created_at": "2023-09-04T01:38:27.203Z",
+        "updated_at": "2023-09-03T21:13:49.574Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "25dbf9c2-7760-4590-83ca-0391b9482254",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": 89728,
+        "published_date": "2023-09-03T16:06:54.358Z",
+        "isbn": "9780743273565",
+        "created_at": "2023-09-03T22:18:35.177Z",
+        "updated_at": "2023-09-03T11:56:58.292Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "8c9940b2-570f-458c-9eba-480489daeddb",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "price": 16582,
+        "published_date": "2023-09-03T17:23:59.105Z",
+        "isbn": "9780061120084",
+        "created_at": "2023-09-04T07:01:31.019Z",
+        "updated_at": "2023-09-04T03:10:22.885Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "40afe9ac-4496-4382-8a8d-c2ed16e0296c",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": 54769,
+        "published_date": "2023-09-03T17:20:28.951Z",
+        "isbn": "9780141439518",
+        "created_at": "2023-09-04T06:30:43.095Z",
+        "updated_at": "2023-09-03T11:42:06.145Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "0063c9f9-abc4-4be8-aed9-5a875b4b7221",
+        "title": "1984",
+        "author": "George Orwell",
+        "price": 80818,
+        "published_date": "2023-09-03T18:55:18.291Z",
+        "isbn": "9780451524935",
+        "created_at": "2023-09-04T04:17:07.798Z",
+        "updated_at": "2023-09-03T22:34:25.824Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "aa326367-0ba8-4a51-8acc-a9550f0e4f93",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "price": 9031,
+        "published_date": "2023-09-03T08:17:26.184Z",
+        "isbn": "9780316769488",
+        "created_at": "2023-09-04T07:20:09.258Z",
+        "updated_at": "2023-09-03T20:52:53.284Z",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "be3a7a15-03dd-44a2-8537-ed312cba914e",
+        "quantity": 38650,
+        "created_at": "2023-09-03T12:40:55.679Z",
+        "updated_at": "2023-09-03T16:36:20.635Z",
+        "book_id": "0063c9f9-abc4-4be8-aed9-5a875b4b7221",
+        "order_id": "cdd4ee93-0bac-42a9-8c8e-20c9efdc6cf8"
+      },
+      {
+        "id": "cb73b6c5-2b3c-4699-8c63-146470caaacd",
+        "quantity": 14626,
+        "created_at": "2023-09-03T11:29:05.660Z",
+        "updated_at": "2023-09-04T02:59:13.328Z",
+        "book_id": "8c9940b2-570f-458c-9eba-480489daeddb",
+        "order_id": "cdd4ee93-0bac-42a9-8c8e-20c9efdc6cf8"
+      },
+      {
+        "id": "0e41d298-cd8a-43f5-9090-624faac2295d",
+        "quantity": 37236,
+        "created_at": "2023-09-03T17:00:14.733Z",
+        "updated_at": "2023-09-04T07:06:36.812Z",
+        "book_id": "40afe9ac-4496-4382-8a8d-c2ed16e0296c",
+        "order_id": "104b6212-04c3-4ba9-9918-be7a8e542d28"
+      },
+      {
+        "id": "0160cf8d-432a-41b2-9888-82bbd3e85ac4",
+        "quantity": 72473,
+        "created_at": "2023-09-03T23:55:27.088Z",
+        "updated_at": "2023-09-03T08:40:00.093Z",
+        "book_id": "40afe9ac-4496-4382-8a8d-c2ed16e0296c",
+        "order_id": "cdd4ee93-0bac-42a9-8c8e-20c9efdc6cf8"
+      },
+      {
+        "id": "48ccd48f-1778-49a2-96a9-506e16b76f62",
+        "quantity": 20339,
+        "created_at": "2023-09-03T10:37:49.500Z",
+        "updated_at": "2023-09-03T11:40:00.336Z",
+        "book_id": "0063c9f9-abc4-4be8-aed9-5a875b4b7221",
+        "order_id": "cdd4ee93-0bac-42a9-8c8e-20c9efdc6cf8"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "5dfd5800-0655-4060-9569-2375f75705df",
+        "quantity": 7897,
+        "created_at": "2023-09-04T00:15:12.620Z",
+        "updated_at": "2023-09-03T16:11:09.970Z",
+        "book_id": "25dbf9c2-7760-4590-83ca-0391b9482254",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "96ffa609-60e1-4948-a350-310190cd00ef",
+        "quantity": 40582,
+        "created_at": "2023-09-03T21:10:57.352Z",
+        "updated_at": "2023-09-03T18:51:30.991Z",
+        "book_id": "0063c9f9-abc4-4be8-aed9-5a875b4b7221",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "fc28ef40-b479-4f02-89df-323a7a1bd0e2",
+        "quantity": 41343,
+        "created_at": "2023-09-04T03:27:25.295Z",
+        "updated_at": "2023-09-03T21:00:22.452Z",
+        "book_id": "0063c9f9-abc4-4be8-aed9-5a875b4b7221",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "56b21529-e2a0-4b51-b5e6-b987dfab3918",
+        "quantity": 23658,
+        "created_at": "2023-09-03T12:46:26.070Z",
+        "updated_at": "2023-09-03T17:49:50.109Z",
+        "book_id": "aa326367-0ba8-4a51-8acc-a9550f0e4f93",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "f9d736d3-0e7c-4608-97c5-6ec972542632",
+        "quantity": 4792,
+        "created_at": "2023-09-04T07:02:26.219Z",
+        "updated_at": "2023-09-03T20:11:22.486Z",
+        "book_id": "8c9940b2-570f-458c-9eba-480489daeddb",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ee938ea3-e7e7-42b0-985c-eab95358a5ec",
+        "email": "Jillian.Ernser@gmail.com",
+        "firstName": "Janelle",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/655.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5c2ccd91-2bb2-4eaf-a140-ddcd42f1ca63",
+        "email": "Buddy.Douglas7@yahoo.com",
+        "firstName": "Kaylin",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1122.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "24fdef82-5c5c-4a05-9df6-150b3d091d01",
+        "email": "Paxton43@gmail.com",
+        "firstName": "Bernhard",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/87.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "08235d88-b4c3-47fc-8b82-33bc6f03cffc",
+        "email": "Abbey_Ward87@gmail.com",
+        "firstName": "Lisette",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33437229",
+        "tenantId": null
+      },
+      {
+        "reference": "211d10fd-2e02-492b-b73e-70e5d9fd00da",
+        "email": "Raina_Rowe@yahoo.com",
+        "firstName": "Deonte",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59344726",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "6900d070-281e-4d27-838f-99f2969abcc0",
+        "order_date": "2023-09-03T21:45:29.766Z",
+        "total_price": 93825,
+        "created_at": "2023-09-03T16:27:00.378Z",
+        "updated_at": "2023-09-03T23:53:59.170Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2064953e-4134-424e-a675-0f425c4f19da",
+        "order_date": "2023-09-03T11:10:59.460Z",
+        "total_price": 97357,
+        "created_at": "2023-09-03T14:13:43.220Z",
+        "updated_at": "2023-09-03T19:12:11.047Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e885323b-25f9-4810-a0df-105cb8402a0f",
+        "order_date": "2023-09-03T18:41:04.339Z",
+        "total_price": 30261,
+        "created_at": "2023-09-04T01:48:02.342Z",
+        "updated_at": "2023-09-03T15:12:45.456Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92a16e27-4788-40f1-bdb8-375dc31987ec",
+        "order_date": "2023-09-03T20:14:22.239Z",
+        "total_price": 34586,
+        "created_at": "2023-09-03T19:00:12.107Z",
+        "updated_at": "2023-09-04T04:35:28.610Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f3ba15a-4b52-4aa5-99ec-fb5d4de329ec",
+        "order_date": "2023-09-03T07:39:58.122Z",
+        "total_price": 81779,
+        "created_at": "2023-09-04T06:10:13.279Z",
+        "updated_at": "2023-09-04T02:42:54.450Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "3684c46a-5d34-44c1-948d-fe06b646aff1",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "price": 64542,
+        "published_date": "2023-09-03T14:44:21.357Z",
+        "isbn": "9780061120084",
+        "created_at": "2023-09-04T07:15:29.179Z",
+        "updated_at": "2023-09-04T04:31:41.091Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "03c6661c-5ec2-41fa-bda6-31c70eac8d07",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": 33640,
+        "published_date": "2023-09-03T16:32:12.883Z",
+        "isbn": "9780141439563",
+        "created_at": "2023-09-04T00:46:19.597Z",
+        "updated_at": "2023-09-04T05:26:00.776Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "87c2566c-3d88-4408-adc5-83dd40949037",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": 3577,
+        "published_date": "2023-09-03T10:54:20.928Z",
+        "isbn": "9780743273565",
+        "created_at": "2023-09-04T06:29:32.663Z",
+        "updated_at": "2023-09-03T07:28:24.858Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "8f43481a-fde2-4080-bfd7-3e5acda604c3",
+        "title": "1984",
+        "author": "George Orwell",
+        "price": 94443,
+        "published_date": "2023-09-03T12:16:37.901Z",
+        "isbn": "9780451524935",
+        "created_at": "2023-09-04T01:32:34.549Z",
+        "updated_at": "2023-09-03T15:24:30.262Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "84ce1128-f116-4e14-a67b-032aa940531f",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "price": 81821,
+        "published_date": "2023-09-04T01:02:35.099Z",
+        "isbn": "9780590353427",
+        "created_at": "2023-09-03T10:38:43.971Z",
+        "updated_at": "2023-09-03T14:04:01.726Z",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "03b3f554-adfc-47dc-8e2e-1d597760512e",
+        "quantity": 80179,
+        "created_at": "2023-09-04T05:33:56.232Z",
+        "updated_at": "2023-09-04T05:01:15.129Z",
+        "book_id": "84ce1128-f116-4e14-a67b-032aa940531f",
+        "order_id": "e885323b-25f9-4810-a0df-105cb8402a0f"
+      },
+      {
+        "id": "cf4e2a06-22a8-4b76-b600-c8382c715fe0",
+        "quantity": 23688,
+        "created_at": "2023-09-04T01:05:53.941Z",
+        "updated_at": "2023-09-03T16:04:05.531Z",
+        "book_id": "84ce1128-f116-4e14-a67b-032aa940531f",
+        "order_id": "e885323b-25f9-4810-a0df-105cb8402a0f"
+      },
+      {
+        "id": "6d280f39-9150-4cb0-8735-21be953532c1",
+        "quantity": 48400,
+        "created_at": "2023-09-03T20:55:38.773Z",
+        "updated_at": "2023-09-03T14:21:52.492Z",
+        "book_id": "03c6661c-5ec2-41fa-bda6-31c70eac8d07",
+        "order_id": "8f3ba15a-4b52-4aa5-99ec-fb5d4de329ec"
+      },
+      {
+        "id": "7b517c17-cc31-4e00-a575-b5887e5a5ff9",
+        "quantity": 41720,
+        "created_at": "2023-09-03T14:31:47.291Z",
+        "updated_at": "2023-09-03T14:04:16.883Z",
+        "book_id": "84ce1128-f116-4e14-a67b-032aa940531f",
+        "order_id": "2064953e-4134-424e-a675-0f425c4f19da"
+      },
+      {
+        "id": "6bc7a0c7-35c5-49b9-8876-d2121841cedf",
+        "quantity": 41801,
+        "created_at": "2023-09-04T02:47:44.855Z",
+        "updated_at": "2023-09-04T06:11:59.068Z",
+        "book_id": "03c6661c-5ec2-41fa-bda6-31c70eac8d07",
+        "order_id": "6900d070-281e-4d27-838f-99f2969abcc0"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "cea2fe18-f034-4b76-ad61-6032f35a992b",
+        "quantity": 39369,
+        "created_at": "2023-09-03T12:39:59.419Z",
+        "updated_at": "2023-09-04T07:02:38.702Z",
+        "book_id": "3684c46a-5d34-44c1-948d-fe06b646aff1",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "229f2816-c831-425a-b5d1-f8dc5d95e9a8",
+        "quantity": 43886,
+        "created_at": "2023-09-03T23:08:21.187Z",
+        "updated_at": "2023-09-03T17:00:17.139Z",
+        "book_id": "84ce1128-f116-4e14-a67b-032aa940531f",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "efcda087-3d26-4caa-aa18-3deaec336336",
+        "quantity": 88922,
+        "created_at": "2023-09-04T04:40:41.180Z",
+        "updated_at": "2023-09-03T16:11:50.334Z",
+        "book_id": "8f43481a-fde2-4080-bfd7-3e5acda604c3",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "b566115c-6b0b-42a2-8d50-69e9f8650aa3",
+        "quantity": 83572,
+        "created_at": "2023-09-03T14:16:48.859Z",
+        "updated_at": "2023-09-03T14:10:16.008Z",
+        "book_id": "8f43481a-fde2-4080-bfd7-3e5acda604c3",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "74278b70-600a-44d1-b29a-a27d0e680ca7",
+        "quantity": 20756,
+        "created_at": "2023-09-03T18:52:47.607Z",
+        "updated_at": "2023-09-03T15:54:39.955Z",
+        "book_id": "3684c46a-5d34-44c1-948d-fe06b646aff1",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f61d1bf1-8dc8-42a8-b5db-a5bad7f9cdcd",
+        "email": "Duncan89@gmail.com",
+        "firstName": "Brenda",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/454.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c23842d5-cc80-41a8-833f-edfe262c232b",
+        "email": "Michele.Botsford42@gmail.com",
+        "firstName": "Kristopher",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42635343",
+        "tenantId": null
+      },
+      {
+        "reference": "aac28295-748f-4c5c-99df-9133417897d5",
+        "email": "Angelo_Schroeder@gmail.com",
+        "firstName": "Vidal",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76276898",
+        "tenantId": null
+      },
+      {
+        "reference": "432939e6-c54f-42c5-8bb8-08d63d0bfabd",
+        "email": "Jean.Feest33@yahoo.com",
+        "firstName": "Kareem",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66019653",
+        "tenantId": null
+      },
+      {
+        "reference": "185c1c53-1fa8-4cfe-8e51-76a6379db5e8",
+        "email": "America.Hackett@gmail.com",
+        "firstName": "Devan",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/82.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "88f0e490-2cad-4b54-8bfe-9cdcdbcf63a3",
+        "order_date": "2023-09-04T02:33:34.822Z",
+        "total_price": 45456,
+        "created_at": "2023-09-04T04:34:33.839Z",
+        "updated_at": "2023-09-03T16:11:01.624Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36782edb-a259-4e7e-893a-3c1214c190b3",
+        "order_date": "2023-09-03T23:22:47.967Z",
+        "total_price": 14951,
+        "created_at": "2023-09-03T10:21:22.446Z",
+        "updated_at": "2023-09-03T12:15:22.466Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "616d57a6-c216-4eb6-9886-b6d2873da325",
+        "order_date": "2023-09-03T23:36:08.867Z",
+        "total_price": 18625,
+        "created_at": "2023-09-04T02:20:59.273Z",
+        "updated_at": "2023-09-03T20:24:48.414Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c55f9635-2ac5-476d-ba4c-10b6003f9bf3",
+        "order_date": "2023-09-03T16:22:28.635Z",
+        "total_price": 25310,
+        "created_at": "2023-09-03T15:38:20.917Z",
+        "updated_at": "2023-09-03T21:21:53.920Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73ddf60d-db30-4964-9420-848f360e2852",
+        "order_date": "2023-09-03T19:13:21.709Z",
+        "total_price": 56907,
+        "created_at": "2023-09-04T03:51:42.139Z",
+        "updated_at": "2023-09-03T12:11:38.843Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "a9efb11b-33b5-4765-b04d-45e0f3d930dc",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": 6431,
+        "published_date": "2023-09-03T10:40:05.166Z",
+        "isbn": "9780141182636",
+        "created_at": "2023-09-04T05:10:48.344Z",
+        "updated_at": "2023-09-04T04:54:11.943Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "06eae1b8-fe18-4b99-bd6f-a0f172d9c86a",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "price": 18958,
+        "published_date": "2023-09-03T11:37:11.295Z",
+        "isbn": "9780061120084",
+        "created_at": "2023-09-03T15:56:31.317Z",
+        "updated_at": "2023-09-03T08:57:15.957Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "f78e9913-9b54-4aaf-8c9b-534b99dd384c",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": 60780,
+        "published_date": "2023-09-03T13:49:27.578Z",
+        "isbn": "9780141439518",
+        "created_at": "2023-09-03T16:00:52.711Z",
+        "updated_at": "2023-09-04T00:42:40.064Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "06f05638-be0d-4c6d-b2b3-b1c9567aa0e6",
+        "title": "1984",
+        "author": "George Orwell",
+        "price": 72417,
+        "published_date": "2023-09-04T05:06:54.298Z",
+        "isbn": "9780451524935",
+        "created_at": "2023-09-03T18:58:27.420Z",
+        "updated_at": "2023-09-03T17:28:03.823Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "9466e8b0-8f59-409f-bc20-1fd2b958f878",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "price": 33664,
+        "published_date": "2023-09-03T21:23:30.076Z",
+        "isbn": "9780316769174",
+        "created_at": "2023-09-04T00:27:55.072Z",
+        "updated_at": "2023-09-03T15:32:54.270Z",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "3707d176-074b-4c7e-8ce5-b10ac1305783",
+        "quantity": 43658,
+        "created_at": "2023-09-03T16:39:07.374Z",
+        "updated_at": "2023-09-03T08:14:17.069Z",
+        "book_id": "9466e8b0-8f59-409f-bc20-1fd2b958f878",
+        "order_id": "c55f9635-2ac5-476d-ba4c-10b6003f9bf3"
+      },
+      {
+        "id": "7b5ccf41-4717-4df1-a46c-f4ea3b400d26",
+        "quantity": 56597,
+        "created_at": "2023-09-03T08:48:43.390Z",
+        "updated_at": "2023-09-04T02:50:26.655Z",
+        "book_id": "f78e9913-9b54-4aaf-8c9b-534b99dd384c",
+        "order_id": "36782edb-a259-4e7e-893a-3c1214c190b3"
+      },
+      {
+        "id": "fa071055-0cce-45a7-a9e2-264fc151b4e2",
+        "quantity": 24194,
+        "created_at": "2023-09-03T16:27:36.410Z",
+        "updated_at": "2023-09-04T06:57:42.830Z",
+        "book_id": "06f05638-be0d-4c6d-b2b3-b1c9567aa0e6",
+        "order_id": "36782edb-a259-4e7e-893a-3c1214c190b3"
+      },
+      {
+        "id": "88b4774c-f6ed-4b03-a753-5c8369b5dea8",
+        "quantity": 89383,
+        "created_at": "2023-09-03T07:31:06.598Z",
+        "updated_at": "2023-09-04T03:29:33.315Z",
+        "book_id": "06f05638-be0d-4c6d-b2b3-b1c9567aa0e6",
+        "order_id": "c55f9635-2ac5-476d-ba4c-10b6003f9bf3"
+      },
+      {
+        "id": "46f8f1c0-d958-4618-ad7b-8e84b702f756",
+        "quantity": 33392,
+        "created_at": "2023-09-03T10:22:53.507Z",
+        "updated_at": "2023-09-03T14:18:24.866Z",
+        "book_id": "06f05638-be0d-4c6d-b2b3-b1c9567aa0e6",
+        "order_id": "73ddf60d-db30-4964-9420-848f360e2852"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "1337ff33-de7c-48bb-bc2a-ac5c31e259dc",
+        "quantity": 28410,
+        "created_at": "2023-09-03T08:39:23.853Z",
+        "updated_at": "2023-09-03T22:01:26.346Z",
+        "book_id": "f78e9913-9b54-4aaf-8c9b-534b99dd384c",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "8dc3baab-a5c0-4071-ae4b-e6646c625fe0",
+        "quantity": 25326,
+        "created_at": "2023-09-03T09:17:16.007Z",
+        "updated_at": "2023-09-04T03:05:38.383Z",
+        "book_id": "9466e8b0-8f59-409f-bc20-1fd2b958f878",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "ae0a7cbf-0cc7-4fda-bddf-f7dc52c92b73",
+        "quantity": 59072,
+        "created_at": "2023-09-04T04:03:35.722Z",
+        "updated_at": "2023-09-03T10:26:43.756Z",
+        "book_id": "a9efb11b-33b5-4765-b04d-45e0f3d930dc",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "8726345a-e480-4e6b-814c-e9405404501a",
+        "quantity": 64540,
+        "created_at": "2023-09-03T23:17:48.188Z",
+        "updated_at": "2023-09-04T00:11:46.197Z",
+        "book_id": "a9efb11b-33b5-4765-b04d-45e0f3d930dc",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "925de4fc-ebe0-4043-881d-206cc459febc",
+        "quantity": 38478,
+        "created_at": "2023-09-03T14:31:14.134Z",
+        "updated_at": "2023-09-03T12:12:05.690Z",
+        "book_id": "a9efb11b-33b5-4765-b04d-45e0f3d930dc",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4c8ed25a-982f-44de-b3b2-1445c9ae5888",
+        "email": "Dejuan96@gmail.com",
+        "firstName": "Lamar",
+        "lastName": "Zemlak-D'Amore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/39.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "19a792f0-125e-41dc-ac97-f2a9f4c96726",
+        "email": "Jarrett2@hotmail.com",
+        "firstName": "Casandra",
+        "lastName": "Schamberger-Fritsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1060.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c9ce4918-8441-460b-a064-2477442de8d1",
+        "email": "Maya.Murazik32@gmail.com",
+        "firstName": "Edmund",
+        "lastName": "Kirlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50049532",
+        "tenantId": null
+      },
+      {
+        "reference": "424985ff-008b-4410-bfa8-e82ad6c82226",
+        "email": "Neil90@gmail.com",
+        "firstName": "Noemy",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/3.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "75e169f9-1d70-4ff2-a7a9-1a39a7a0532c",
+        "email": "Marlin.Fadel93@hotmail.com",
+        "firstName": "Ines",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44002310",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "2f6782d0-d1ad-4b1a-89cd-7a219bb1d968",
+        "order_date": "2023-09-03T11:00:47.667Z",
+        "total_price": 62162,
+        "created_at": "2023-09-03T12:28:30.146Z",
+        "updated_at": "2023-09-03T13:49:47.443Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "552ae646-7e8b-4b61-8a24-223b285112e5",
+        "order_date": "2023-09-04T02:09:28.009Z",
+        "total_price": 59708,
+        "created_at": "2023-09-03T07:47:56.205Z",
+        "updated_at": "2023-09-03T13:31:48.552Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b27424a5-1863-4934-8a9d-21f09b41b6d8",
+        "order_date": "2023-09-04T00:17:31.561Z",
+        "total_price": 70575,
+        "created_at": "2023-09-03T17:09:17.524Z",
+        "updated_at": "2023-09-03T15:43:42.334Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e39fa6e3-4a8f-4ca3-bc21-201bd852d215",
+        "order_date": "2023-09-03T22:10:31.343Z",
+        "total_price": 40698,
+        "created_at": "2023-09-03T08:56:00.896Z",
+        "updated_at": "2023-09-04T03:28:02.275Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e28dcb20-a7a5-4872-b7ca-c731cee14733",
+        "order_date": "2023-09-04T01:21:56.333Z",
+        "total_price": 40754,
+        "created_at": "2023-09-03T08:56:35.427Z",
+        "updated_at": "2023-09-03T14:52:30.082Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "8b8f3d7c-68c0-42ea-8c19-e7e01226f51b",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": 22192,
+        "published_date": "2023-09-03T08:04:00.941Z",
+        "isbn": "9780141182636",
+        "created_at": "2023-09-03T16:01:46.814Z",
+        "updated_at": "2023-09-03T10:11:26.702Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "131e799f-e1c3-4c67-84a4-d078924538df",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "price": 40040,
+        "published_date": "2023-09-03T08:26:24.141Z",
+        "isbn": "9780061120084",
+        "created_at": "2023-09-03T23:07:46.480Z",
+        "updated_at": "2023-09-03T17:52:36.965Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "3002562b-9786-4d2d-81d4-6e346bf92337",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": 12603,
+        "published_date": "2023-09-04T02:46:55.737Z",
+        "isbn": "9780141439518",
+        "created_at": "2023-09-03T09:36:17.715Z",
+        "updated_at": "2023-09-03T19:50:14.611Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "2dd4516c-302a-4051-ae50-ac3c1b94052a",
+        "title": "1984",
+        "author": "George Orwell",
+        "price": 90247,
+        "published_date": "2023-09-03T07:40:21.185Z",
+        "isbn": "9780451524935",
+        "created_at": "2023-09-03T10:56:33.294Z",
+        "updated_at": "2023-09-03T12:00:32.180Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "34baa9df-3d80-4743-afd4-d03dab151ecd",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "price": 81547,
+        "published_date": "2023-09-03T17:09:01.266Z",
+        "isbn": "9780316769488",
+        "created_at": "2023-09-03T22:35:23.709Z",
+        "updated_at": "2023-09-03T22:02:33.931Z",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "bceff89c-cff5-4563-a458-b8200b1237cd",
+        "quantity": 95249,
+        "created_at": "2023-09-04T07:04:53.642Z",
+        "updated_at": "2023-09-04T02:14:11.633Z",
+        "book_id": "2dd4516c-302a-4051-ae50-ac3c1b94052a",
+        "order_id": "b27424a5-1863-4934-8a9d-21f09b41b6d8"
+      },
+      {
+        "id": "413b484d-ab88-4782-8b8b-7251516f425d",
+        "quantity": 32085,
+        "created_at": "2023-09-04T02:55:29.715Z",
+        "updated_at": "2023-09-03T20:05:18.216Z",
+        "book_id": "8b8f3d7c-68c0-42ea-8c19-e7e01226f51b",
+        "order_id": "b27424a5-1863-4934-8a9d-21f09b41b6d8"
+      },
+      {
+        "id": "34151bf7-4afd-4afe-989e-63af7fe22445",
+        "quantity": 79790,
+        "created_at": "2023-09-03T11:27:52.847Z",
+        "updated_at": "2023-09-04T02:59:11.905Z",
+        "book_id": "2dd4516c-302a-4051-ae50-ac3c1b94052a",
+        "order_id": "e28dcb20-a7a5-4872-b7ca-c731cee14733"
+      },
+      {
+        "id": "d74d8780-818a-4d3e-b2d3-87f7befe945a",
+        "quantity": 25800,
+        "created_at": "2023-09-04T05:25:18.624Z",
+        "updated_at": "2023-09-03T22:06:36.640Z",
+        "book_id": "3002562b-9786-4d2d-81d4-6e346bf92337",
+        "order_id": "e39fa6e3-4a8f-4ca3-bc21-201bd852d215"
+      },
+      {
+        "id": "a6e6617e-7452-4bb7-a312-d76c96c583a7",
+        "quantity": 70876,
+        "created_at": "2023-09-04T07:07:20.557Z",
+        "updated_at": "2023-09-03T22:17:36.209Z",
+        "book_id": "8b8f3d7c-68c0-42ea-8c19-e7e01226f51b",
+        "order_id": "e28dcb20-a7a5-4872-b7ca-c731cee14733"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "62c8e877-406e-4e92-8809-bf7c69c3200c",
+        "quantity": 52699,
+        "created_at": "2023-09-03T17:03:44.955Z",
+        "updated_at": "2023-09-03T08:17:29.079Z",
+        "book_id": "8b8f3d7c-68c0-42ea-8c19-e7e01226f51b",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "121ad593-0d07-4b7a-b069-04406a0d33bc",
+        "quantity": 76343,
+        "created_at": "2023-09-04T02:15:40.379Z",
+        "updated_at": "2023-09-03T23:04:14.753Z",
+        "book_id": "2dd4516c-302a-4051-ae50-ac3c1b94052a",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "71568788-65dc-456e-895d-3862c48ec2f2",
+        "quantity": 92940,
+        "created_at": "2023-09-03T22:00:35.232Z",
+        "updated_at": "2023-09-04T05:20:46.311Z",
+        "book_id": "131e799f-e1c3-4c67-84a4-d078924538df",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "22b1ffb3-d8f0-4704-92a2-a94297a90ecb",
+        "quantity": 77290,
+        "created_at": "2023-09-03T10:31:40.051Z",
+        "updated_at": "2023-09-03T18:06:44.297Z",
+        "book_id": "131e799f-e1c3-4c67-84a4-d078924538df",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "3fa5974e-e08a-4fbc-9ef1-c293d368372f",
+        "quantity": 7765,
+        "created_at": "2023-09-03T11:25:45.680Z",
+        "updated_at": "2023-09-04T06:04:19.249Z",
+        "book_id": "34baa9df-3d80-4743-afd4-d03dab151ecd",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "08396939-14ec-4ca8-a11c-eb324e081eb8",
+        "email": "Fae.Johns17@gmail.com",
+        "firstName": "Ruben",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73811893",
+        "tenantId": null
+      },
+      {
+        "reference": "2dfbd0d7-ac6e-498a-b9f7-d46f2a7cab5a",
+        "email": "Vincent.Collins92@yahoo.com",
+        "firstName": "Cristian",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31807737",
+        "tenantId": null
+      },
+      {
+        "reference": "2c6c96eb-cc18-4445-987d-acfa01052bbd",
+        "email": "Buck.Cole@hotmail.com",
+        "firstName": "April",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85868727",
+        "tenantId": null
+      },
+      {
+        "reference": "393640bc-4d7a-45d3-afce-3283a86c5229",
+        "email": "Gerry.Thiel51@hotmail.com",
+        "firstName": "Mandy",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77118992",
+        "tenantId": null
+      },
+      {
+        "reference": "389afe4c-eb90-4c74-8e57-752565a9d954",
+        "email": "Tyshawn.Leannon@hotmail.com",
+        "firstName": "Eduardo",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1217.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "2d2ca6d6-cf99-47e6-925b-2a5a940b839a",
+        "order_date": "2023-09-04T00:28:33.251Z",
+        "total_price": 19276,
+        "created_at": "2023-09-03T11:27:33.650Z",
+        "updated_at": "2023-09-03T13:04:49.781Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89b6ed99-5004-4127-beeb-c2d25b57e417",
+        "order_date": "2023-09-03T10:18:53.602Z",
+        "total_price": 18256,
+        "created_at": "2023-09-03T15:09:56.031Z",
+        "updated_at": "2023-09-03T11:50:57.356Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a12c8d36-fa37-465a-bef4-8e88b45f1338",
+        "order_date": "2023-09-04T05:43:09.180Z",
+        "total_price": 52868,
+        "created_at": "2023-09-03T18:40:59.341Z",
+        "updated_at": "2023-09-03T13:00:55.209Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "512d77d5-cf58-44ed-be3b-b58a50272c30",
+        "order_date": "2023-09-03T15:58:06.257Z",
+        "total_price": 13466,
+        "created_at": "2023-09-03T20:26:36.360Z",
+        "updated_at": "2023-09-04T04:43:18.906Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8181f07c-559d-4f61-8bf9-65c610e92b48",
+        "order_date": "2023-09-04T05:03:33.445Z",
+        "total_price": 99802,
+        "created_at": "2023-09-04T02:11:43.669Z",
+        "updated_at": "2023-09-03T07:32:31.732Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "7313e5ce-0111-4645-98f7-97f5cd1d0010",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": 92937,
+        "published_date": "2023-09-03T21:38:01.745Z",
+        "isbn": "9780141182636",
+        "created_at": "2023-09-03T17:10:14.769Z",
+        "updated_at": "2023-09-03T07:50:05.903Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "3d5d89c5-b9ab-4ee1-b94f-c132adb2edb9",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "price": 25963,
+        "published_date": "2023-09-03T20:07:16.993Z",
+        "isbn": "9780061120084",
+        "created_at": "2023-09-04T05:55:44.774Z",
+        "updated_at": "2023-09-03T23:10:03.452Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "5330f9e8-1be1-439d-9506-7f7fb70f6569",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": 88169,
+        "published_date": "2023-09-03T23:58:40.727Z",
+        "isbn": "9780141439518",
+        "created_at": "2023-09-03T14:01:13.782Z",
+        "updated_at": "2023-09-03T17:59:28.160Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "e0df424b-e6d4-414f-9399-a20ea3cebd86",
+        "title": "1984",
+        "author": "George Orwell",
+        "price": 67733,
+        "published_date": "2023-09-04T03:34:10.562Z",
+        "isbn": "9780451524935",
+        "created_at": "2023-09-04T07:16:12.277Z",
+        "updated_at": "2023-09-03T15:51:29.445Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "2c909217-7cca-4724-8a4b-35033a8766ed",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "price": 93326,
+        "published_date": "2023-09-03T21:47:04.276Z",
+        "isbn": "9780316769174",
+        "created_at": "2023-09-03T18:37:01.304Z",
+        "updated_at": "2023-09-04T04:38:56.481Z",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "b30c73ab-66c7-4da6-8b4b-6f1c79a717e5",
+        "quantity": 19048,
+        "created_at": "2023-09-03T16:35:24.586Z",
+        "updated_at": "2023-09-03T16:04:41.658Z",
+        "book_id": "5330f9e8-1be1-439d-9506-7f7fb70f6569",
+        "order_id": "a12c8d36-fa37-465a-bef4-8e88b45f1338"
+      },
+      {
+        "id": "f4431606-695b-4c22-8557-a31cd70cd251",
+        "quantity": 2248,
+        "created_at": "2023-09-03T14:31:37.949Z",
+        "updated_at": "2023-09-03T20:58:38.509Z",
+        "book_id": "e0df424b-e6d4-414f-9399-a20ea3cebd86",
+        "order_id": "89b6ed99-5004-4127-beeb-c2d25b57e417"
+      },
+      {
+        "id": "e7e4e883-c266-4b79-9f50-74afd42a9983",
+        "quantity": 58876,
+        "created_at": "2023-09-03T21:56:49.542Z",
+        "updated_at": "2023-09-03T10:05:50.581Z",
+        "book_id": "7313e5ce-0111-4645-98f7-97f5cd1d0010",
+        "order_id": "89b6ed99-5004-4127-beeb-c2d25b57e417"
+      },
+      {
+        "id": "617a1693-2d56-4d0d-863a-be9167f2ecdd",
+        "quantity": 37234,
+        "created_at": "2023-09-03T11:29:33.857Z",
+        "updated_at": "2023-09-03T17:33:08.035Z",
+        "book_id": "2c909217-7cca-4724-8a4b-35033a8766ed",
+        "order_id": "a12c8d36-fa37-465a-bef4-8e88b45f1338"
+      },
+      {
+        "id": "c5d04c41-1473-4859-81de-fa834dfe8b1b",
+        "quantity": 28227,
+        "created_at": "2023-09-03T13:38:36.562Z",
+        "updated_at": "2023-09-04T06:58:05.824Z",
+        "book_id": "7313e5ce-0111-4645-98f7-97f5cd1d0010",
+        "order_id": "512d77d5-cf58-44ed-be3b-b58a50272c30"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "b3c3380a-acae-429d-9bc4-36c875a5f7b2",
+        "quantity": 35396,
+        "created_at": "2023-09-04T05:58:01.544Z",
+        "updated_at": "2023-09-03T22:24:37.490Z",
+        "book_id": "5330f9e8-1be1-439d-9506-7f7fb70f6569",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "bfeb7ffb-51c8-4434-b2fb-b1dff66dd3c0",
+        "quantity": 93388,
+        "created_at": "2023-09-03T22:05:27.492Z",
+        "updated_at": "2023-09-03T16:10:49.924Z",
+        "book_id": "3d5d89c5-b9ab-4ee1-b94f-c132adb2edb9",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "466a6546-6499-4d11-aee9-6ac78caa1343",
+        "quantity": 49004,
+        "created_at": "2023-09-03T17:08:22.770Z",
+        "updated_at": "2023-09-03T18:34:51.678Z",
+        "book_id": "5330f9e8-1be1-439d-9506-7f7fb70f6569",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "5b318b06-0554-43a8-ba3a-d238d4bba8eb",
+        "quantity": 91298,
+        "created_at": "2023-09-03T15:59:54.192Z",
+        "updated_at": "2023-09-03T12:01:03.380Z",
+        "book_id": "5330f9e8-1be1-439d-9506-7f7fb70f6569",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "2873f7e0-0f4e-47b5-b643-263044f6a01c",
+        "quantity": 63991,
+        "created_at": "2023-09-03T09:17:03.909Z",
+        "updated_at": "2023-09-03T18:22:50.291Z",
+        "book_id": "7313e5ce-0111-4645-98f7-97f5cd1d0010",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "94fdecc3-2e8f-4269-9144-1c18df1dcc54",
+        "email": "Kennith60@yahoo.com",
+        "firstName": "Zakary",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1075.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4c8c733b-ae6e-42f0-ae44-27ef1e491bbb",
+        "email": "Delmer82@hotmail.com",
+        "firstName": "Jack",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66967537",
+        "tenantId": null
+      },
+      {
+        "reference": "9981ff47-2381-4099-969f-67395f47c31b",
+        "email": "Esther_Ferry28@hotmail.com",
+        "firstName": "Eduardo",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18203559",
+        "tenantId": null
+      },
+      {
+        "reference": "6ce0556c-8bfe-4d7e-95bd-b58340a1472f",
+        "email": "Weston29@yahoo.com",
+        "firstName": "Carmen",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/392.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1f761bf0-5d37-4e9e-ad1f-c5b7e242b5c2",
+        "email": "Anya.Grant63@hotmail.com",
+        "firstName": "Baron",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/496.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "07922543-ecd3-43f7-b849-a98883d33528",
+        "order_date": "2023-09-04T00:24:55.072Z",
+        "total_price": 74238,
+        "created_at": "2023-09-03T11:59:41.829Z",
+        "updated_at": "2023-09-03T16:16:29.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14e709b2-4937-4631-bd88-98531059f408",
+        "order_date": "2023-09-03T20:38:29.187Z",
+        "total_price": 31838,
+        "created_at": "2023-09-03T14:57:06.209Z",
+        "updated_at": "2023-09-04T01:00:20.188Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71117e48-719b-43c9-a2b9-6671e975751c",
+        "order_date": "2023-09-03T18:21:59.537Z",
+        "total_price": 82033,
+        "created_at": "2023-09-03T13:41:59.744Z",
+        "updated_at": "2023-09-04T05:38:39.951Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a041d06b-00ed-4960-87d2-f8d1759dc490",
+        "order_date": "2023-09-04T00:00:45.141Z",
+        "total_price": 43901,
+        "created_at": "2023-09-03T22:21:13.171Z",
+        "updated_at": "2023-09-04T03:46:25.836Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "870757b7-4dd2-4e63-8557-1ab7e01fd3fd",
+        "order_date": "2023-09-04T06:18:30.225Z",
+        "total_price": 919,
+        "created_at": "2023-09-04T06:44:27.467Z",
+        "updated_at": "2023-09-03T09:00:49.419Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "57318788-a61c-417b-b8fe-78e86e660e64",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": 92711,
+        "published_date": "2023-09-04T05:12:08.587Z",
+        "isbn": "9780141182636",
+        "created_at": "2023-09-03T21:52:33.681Z",
+        "updated_at": "2023-09-03T09:08:25.438Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "e50fa182-d870-465a-b657-61a3f8adcf08",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "price": 94575,
+        "published_date": "2023-09-03T21:21:19.843Z",
+        "isbn": "9780061120084",
+        "created_at": "2023-09-03T23:43:41.623Z",
+        "updated_at": "2023-09-03T22:05:39.395Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "41197167-e79c-41bb-82a2-5b73ac354356",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": 2728,
+        "published_date": "2023-09-03T19:17:54.043Z",
+        "isbn": "9780141439518",
+        "created_at": "2023-09-03T15:30:16.877Z",
+        "updated_at": "2023-09-04T00:19:00.348Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "7af80fa3-2cbb-49b4-a409-f62aa17a5305",
+        "title": "1984",
+        "author": "George Orwell",
+        "price": 60866,
+        "published_date": "2023-09-03T18:21:47.112Z",
+        "isbn": "9780451524935",
+        "created_at": "2023-09-03T20:59:28.100Z",
+        "updated_at": "2023-09-04T02:59:30.888Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "d2e46502-a301-4512-8399-14759abc5498",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "price": 1611,
+        "published_date": "2023-09-03T16:42:32.566Z",
+        "isbn": "9780316769488",
+        "created_at": "2023-09-03T22:25:45.353Z",
+        "updated_at": "2023-09-03T16:01:05.008Z",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "8f09dfcb-a702-4010-8048-2f043dafcc1b",
+        "quantity": 93749,
+        "created_at": "2023-09-04T04:27:06.348Z",
+        "updated_at": "2023-09-03T17:42:45.277Z",
+        "book_id": "e50fa182-d870-465a-b657-61a3f8adcf08",
+        "order_id": "14e709b2-4937-4631-bd88-98531059f408"
+      },
+      {
+        "id": "eb4a7f95-ff2c-4813-843a-e2680a2bab5e",
+        "quantity": 86007,
+        "created_at": "2023-09-03T14:15:16.672Z",
+        "updated_at": "2023-09-03T20:15:33.915Z",
+        "book_id": "d2e46502-a301-4512-8399-14759abc5498",
+        "order_id": "71117e48-719b-43c9-a2b9-6671e975751c"
+      },
+      {
+        "id": "2056ca2c-93cf-480f-a25f-c5e79a846ff8",
+        "quantity": 67632,
+        "created_at": "2023-09-03T17:21:48.848Z",
+        "updated_at": "2023-09-03T20:07:59.701Z",
+        "book_id": "7af80fa3-2cbb-49b4-a409-f62aa17a5305",
+        "order_id": "a041d06b-00ed-4960-87d2-f8d1759dc490"
+      },
+      {
+        "id": "bb87e4e4-722e-4791-a98f-7479941533e5",
+        "quantity": 85206,
+        "created_at": "2023-09-03T17:39:26.902Z",
+        "updated_at": "2023-09-03T15:35:08.084Z",
+        "book_id": "7af80fa3-2cbb-49b4-a409-f62aa17a5305",
+        "order_id": "870757b7-4dd2-4e63-8557-1ab7e01fd3fd"
+      },
+      {
+        "id": "16227328-2389-4d4f-9e12-9a165269ca8a",
+        "quantity": 3742,
+        "created_at": "2023-09-03T12:28:21.305Z",
+        "updated_at": "2023-09-04T05:30:06.053Z",
+        "book_id": "d2e46502-a301-4512-8399-14759abc5498",
+        "order_id": "07922543-ecd3-43f7-b849-a98883d33528"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "c55ec7de-b04c-46c8-9440-89cd2b51eb4a",
+        "quantity": 13622,
+        "created_at": "2023-09-03T15:27:37.091Z",
+        "updated_at": "2023-09-03T16:29:11.737Z",
+        "book_id": "7af80fa3-2cbb-49b4-a409-f62aa17a5305",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "48af8aaf-18d7-45bc-ae63-df122667eb0f",
+        "quantity": 17757,
+        "created_at": "2023-09-04T00:25:21.526Z",
+        "updated_at": "2023-09-04T01:26:17.179Z",
+        "book_id": "d2e46502-a301-4512-8399-14759abc5498",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "33b7eaaf-5745-4504-88f3-2068c8582f1d",
+        "quantity": 90083,
+        "created_at": "2023-09-03T21:53:11.045Z",
+        "updated_at": "2023-09-03T23:26:58.257Z",
+        "book_id": "57318788-a61c-417b-b8fe-78e86e660e64",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "6d079695-15bf-48df-b661-1358891370b9",
+        "quantity": 65821,
+        "created_at": "2023-09-03T17:56:47.979Z",
+        "updated_at": "2023-09-03T14:38:45.865Z",
+        "book_id": "7af80fa3-2cbb-49b4-a409-f62aa17a5305",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "eff3a6cc-9fff-44ec-a406-7425df5c9fb9",
+        "quantity": 39872,
+        "created_at": "2023-09-04T04:21:35.414Z",
+        "updated_at": "2023-09-03T12:02:18.018Z",
+        "book_id": "57318788-a61c-417b-b8fe-78e86e660e64",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "30315c04-3e66-4509-819f-b42903c9c06c",
+        "email": "Hassan98@yahoo.com",
+        "firstName": "Makenzie",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2946540",
+        "tenantId": null
+      },
+      {
+        "reference": "f1af5701-3125-43b1-ab4e-c717e6014aed",
+        "email": "Violet.Schulist@hotmail.com",
+        "firstName": "Kaitlin",
+        "lastName": "Mayert-Mosciski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/130.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "67d6e11e-57a0-4d8b-ab69-e53ec3683d09",
+        "email": "Saul64@yahoo.com",
+        "firstName": "Savanah",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/927.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6b0127bf-be1a-4359-8d8d-7b6c9f4eecbf",
+        "email": "Rhianna.Dach@gmail.com",
+        "firstName": "Joseph",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20748031",
+        "tenantId": null
+      },
+      {
+        "reference": "a84bb7d5-e135-4426-9a84-261e34668d1a",
+        "email": "Janessa_Abshire20@hotmail.com",
+        "firstName": "Coralie",
+        "lastName": "Pollich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/937.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "d96efcf5-dd95-40a4-8e79-11b25571f6bf",
+        "order_date": "2023-09-03T17:09:38.109Z",
+        "total_price": 23386,
+        "created_at": "2023-09-03T10:02:55.877Z",
+        "updated_at": "2023-09-04T02:22:33.923Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ae0ca9e-f31a-400a-8330-05eb6188fae9",
+        "order_date": "2023-09-03T17:45:45.610Z",
+        "total_price": 61873,
+        "created_at": "2023-09-04T05:37:44.021Z",
+        "updated_at": "2023-09-03T22:40:06.855Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee5b76fb-b6a9-43f2-9fa7-a592d443b798",
+        "order_date": "2023-09-03T22:56:28.683Z",
+        "total_price": 28140,
+        "created_at": "2023-09-03T14:49:23.012Z",
+        "updated_at": "2023-09-03T14:04:49.155Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e72b850b-24ac-42f2-87b1-d66807c65d33",
+        "order_date": "2023-09-04T06:11:15.459Z",
+        "total_price": 42367,
+        "created_at": "2023-09-03T11:19:26.767Z",
+        "updated_at": "2023-09-04T02:13:58.046Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a41f269-cf62-4280-8f46-fa6e8257c553",
+        "order_date": "2023-09-04T01:04:51.098Z",
+        "total_price": 37110,
+        "created_at": "2023-09-03T10:39:58.266Z",
+        "updated_at": "2023-09-04T04:08:19.553Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "e58164da-dafa-4fdc-b514-7ff77c6d88e1",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": 30255,
+        "published_date": "2023-09-03T16:13:04.191Z",
+        "isbn": "9780743273565",
+        "created_at": "2023-09-04T04:08:47.197Z",
+        "updated_at": "2023-09-03T12:45:10.051Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "1067699a-3fd9-4811-aa9a-90fb648a4c47",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "price": 68573,
+        "published_date": "2023-09-03T13:45:33.609Z",
+        "isbn": "9780061120084",
+        "created_at": "2023-09-03T23:25:00.177Z",
+        "updated_at": "2023-09-03T23:35:54.867Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "d1a62a8f-4ea5-483c-9cc7-642f03e3aff9",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": 85243,
+        "published_date": "2023-09-03T11:42:27.107Z",
+        "isbn": "9780141439518",
+        "created_at": "2023-09-03T22:05:52.690Z",
+        "updated_at": "2023-09-03T09:24:03.508Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "83b94215-5eb4-41bc-a7b7-cabfccddc581",
+        "title": "1984",
+        "author": "George Orwell",
+        "price": 82956,
+        "published_date": "2023-09-04T01:16:23.248Z",
+        "isbn": "9780451524935",
+        "created_at": "2023-09-03T21:12:25.172Z",
+        "updated_at": "2023-09-03T16:26:07.726Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "e72c9918-9fa5-4911-add5-31c4b7592059",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "price": 47744,
+        "published_date": "2023-09-03T08:14:26.666Z",
+        "isbn": "9780316769488",
+        "created_at": "2023-09-03T10:33:52.456Z",
+        "updated_at": "2023-09-03T23:36:31.380Z",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "4a13bc7b-7c11-40f5-9b34-e82e77c7c4e0",
+        "quantity": 85753,
+        "created_at": "2023-09-04T03:49:16.127Z",
+        "updated_at": "2023-09-03T23:05:43.315Z",
+        "book_id": "1067699a-3fd9-4811-aa9a-90fb648a4c47",
+        "order_id": "ee5b76fb-b6a9-43f2-9fa7-a592d443b798"
+      },
+      {
+        "id": "366848d5-a056-48e5-a63f-366fd1af4741",
+        "quantity": 77123,
+        "created_at": "2023-09-04T05:26:28.093Z",
+        "updated_at": "2023-09-03T17:16:41.971Z",
+        "book_id": "e58164da-dafa-4fdc-b514-7ff77c6d88e1",
+        "order_id": "ee5b76fb-b6a9-43f2-9fa7-a592d443b798"
+      },
+      {
+        "id": "84ce139d-05f7-4e45-a446-89b9203bb143",
+        "quantity": 72125,
+        "created_at": "2023-09-03T23:24:12.356Z",
+        "updated_at": "2023-09-03T10:51:50.099Z",
+        "book_id": "d1a62a8f-4ea5-483c-9cc7-642f03e3aff9",
+        "order_id": "ee5b76fb-b6a9-43f2-9fa7-a592d443b798"
+      },
+      {
+        "id": "ebda0948-a19b-42ae-ad3b-e2a05eebb427",
+        "quantity": 54757,
+        "created_at": "2023-09-04T04:33:43.134Z",
+        "updated_at": "2023-09-04T03:50:21.891Z",
+        "book_id": "d1a62a8f-4ea5-483c-9cc7-642f03e3aff9",
+        "order_id": "9ae0ca9e-f31a-400a-8330-05eb6188fae9"
+      },
+      {
+        "id": "2eca67c1-9f09-404e-b883-853fc8eea652",
+        "quantity": 35695,
+        "created_at": "2023-09-03T08:59:40.200Z",
+        "updated_at": "2023-09-03T22:35:09.761Z",
+        "book_id": "e58164da-dafa-4fdc-b514-7ff77c6d88e1",
+        "order_id": "e72b850b-24ac-42f2-87b1-d66807c65d33"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "84cac274-3ef6-48bb-a50d-12e92a61c55f",
+        "quantity": 31803,
+        "created_at": "2023-09-03T23:31:29.967Z",
+        "updated_at": "2023-09-03T12:26:19.019Z",
+        "book_id": "d1a62a8f-4ea5-483c-9cc7-642f03e3aff9",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "22f29582-f8f4-4f47-9bcf-cafcfd5aaf10",
+        "quantity": 72890,
+        "created_at": "2023-09-04T02:13:14.091Z",
+        "updated_at": "2023-09-04T00:29:52.469Z",
+        "book_id": "d1a62a8f-4ea5-483c-9cc7-642f03e3aff9",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "ab521c6e-125f-4f5f-9e77-2cc57219de0e",
+        "quantity": 63639,
+        "created_at": "2023-09-03T21:00:55.406Z",
+        "updated_at": "2023-09-03T09:56:27.482Z",
+        "book_id": "1067699a-3fd9-4811-aa9a-90fb648a4c47",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "75e03ec2-05f7-4615-b259-69796e826d3e",
+        "quantity": 67385,
+        "created_at": "2023-09-04T04:26:36.518Z",
+        "updated_at": "2023-09-04T00:49:49.568Z",
+        "book_id": "d1a62a8f-4ea5-483c-9cc7-642f03e3aff9",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "72599845-fba3-4dbb-aace-2d6ba49ef3f7",
+        "quantity": 38433,
+        "created_at": "2023-09-03T23:13:32.586Z",
+        "updated_at": "2023-09-04T03:17:59.052Z",
+        "book_id": "1067699a-3fd9-4811-aa9a-90fb648a4c47",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "53e97dd7-e114-47b9-a5d5-94c323ec3503",
+        "email": "Roma.Bergstrom-Pagac@hotmail.com",
+        "firstName": "Kaylee",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/902.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3e738a6a-0ab3-4dd7-b0a9-89af19a0b0b9",
+        "email": "Nikko.Friesen@yahoo.com",
+        "firstName": "Emilie",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/696.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "96172237-a2bc-412a-9520-f2a8277f611a",
+        "email": "Reed15@yahoo.com",
+        "firstName": "Marcos",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40515354",
+        "tenantId": null
+      },
+      {
+        "reference": "97b9988e-7f25-40fc-b5a9-5dfa779cf1d7",
+        "email": "Citlalli_Boyer78@hotmail.com",
+        "firstName": "Annie",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4618295",
+        "tenantId": null
+      },
+      {
+        "reference": "94c667f0-a5ad-443a-9048-d7127281c719",
+        "email": "Tyrese.Rohan@gmail.com",
+        "firstName": "Sydni",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1247.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "8919c758-3749-4d95-b551-e3070f514479",
+        "order_date": "2023-09-04T03:32:09.910Z",
+        "total_price": 98978,
+        "created_at": "2023-09-04T05:22:35.879Z",
+        "updated_at": "2023-09-04T05:00:58.535Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc3b31ee-dd57-4769-98c4-bff306150e16",
+        "order_date": "2023-09-04T01:00:06.146Z",
+        "total_price": 65015,
+        "created_at": "2023-09-04T06:32:45.602Z",
+        "updated_at": "2023-09-03T21:43:55.237Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4541a18-3065-46bb-a6c6-8e72d8c82e6f",
+        "order_date": "2023-09-03T15:37:47.465Z",
+        "total_price": 17694,
+        "created_at": "2023-09-04T02:14:33.347Z",
+        "updated_at": "2023-09-03T20:46:55.408Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f61f5382-3abf-4452-8612-7e96418d2e6a",
+        "order_date": "2023-09-03T16:43:07.628Z",
+        "total_price": 94045,
+        "created_at": "2023-09-03T15:48:26.146Z",
+        "updated_at": "2023-09-03T09:29:15.183Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1fc6d69-8916-4f8f-91e5-aee49b1b368a",
+        "order_date": "2023-09-03T18:17:33.797Z",
+        "total_price": 3606,
+        "created_at": "2023-09-04T07:02:34.859Z",
+        "updated_at": "2023-09-04T01:37:13.935Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "book": [
+      {
+        "id": "9b94cdd2-ef23-4763-8029-7bef640bcde5",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": 68946,
+        "published_date": "2023-09-03T12:56:26.516Z",
+        "isbn": "9780743273565",
+        "created_at": "2023-09-04T02:37:49.071Z",
+        "updated_at": "2023-09-03T15:49:16.426Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "81de7915-cd01-4e70-a252-fc8115b41817",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "price": 91779,
+        "published_date": "2023-09-04T06:46:48.039Z",
+        "isbn": "9780060935467",
+        "created_at": "2023-09-03T14:21:23.970Z",
+        "updated_at": "2023-09-04T04:09:41.628Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "5085bfae-947f-4f17-90b5-f33b8de6de87",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": 18203,
+        "published_date": "2023-09-03T22:49:47.653Z",
+        "isbn": "9780141439518",
+        "created_at": "2023-09-04T03:36:28.748Z",
+        "updated_at": "2023-09-04T01:07:06.814Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "40a04919-c050-40fe-b754-c9e7fc1ec7e6",
+        "title": "1984",
+        "author": "George Orwell",
+        "price": 8996,
+        "published_date": "2023-09-03T17:08:31.151Z",
+        "isbn": "9780451524935",
+        "created_at": "2023-09-03T11:00:40.292Z",
+        "updated_at": "2023-09-03T19:17:05.634Z",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "afe5e036-cb32-4a59-801b-a0f0be308d41",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "price": 58792,
+        "published_date": "2023-09-03T13:19:01.054Z",
+        "isbn": "9780316769488",
+        "created_at": "2023-09-03T23:37:09.058Z",
+        "updated_at": "2023-09-03T12:15:23.304Z",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "5cede17c-8572-492e-8bd9-95c99cbc477b",
+        "quantity": 28858,
+        "created_at": "2023-09-03T08:44:27.504Z",
+        "updated_at": "2023-09-04T05:42:17.239Z",
+        "book_id": "81de7915-cd01-4e70-a252-fc8115b41817",
+        "order_id": "c4541a18-3065-46bb-a6c6-8e72d8c82e6f"
+      },
+      {
+        "id": "3f14d2c6-cd96-4553-9b4f-5b33fb146808",
+        "quantity": 53917,
+        "created_at": "2023-09-03T11:31:05.640Z",
+        "updated_at": "2023-09-04T00:13:45.747Z",
+        "book_id": "40a04919-c050-40fe-b754-c9e7fc1ec7e6",
+        "order_id": "8919c758-3749-4d95-b551-e3070f514479"
+      },
+      {
+        "id": "e95919ce-d25c-4f73-bfca-a1d344f63a5a",
+        "quantity": 5498,
+        "created_at": "2023-09-03T16:02:47.165Z",
+        "updated_at": "2023-09-03T12:40:39.337Z",
+        "book_id": "9b94cdd2-ef23-4763-8029-7bef640bcde5",
+        "order_id": "c1fc6d69-8916-4f8f-91e5-aee49b1b368a"
+      },
+      {
+        "id": "e1e501f1-1b12-4384-b3dd-925d39103ad0",
+        "quantity": 58831,
+        "created_at": "2023-09-04T07:03:29.564Z",
+        "updated_at": "2023-09-03T14:02:17.823Z",
+        "book_id": "40a04919-c050-40fe-b754-c9e7fc1ec7e6",
+        "order_id": "fc3b31ee-dd57-4769-98c4-bff306150e16"
+      },
+      {
+        "id": "ef2cc756-6866-404b-9656-50d5a44b15b8",
+        "quantity": 75521,
+        "created_at": "2023-09-04T02:05:43.647Z",
+        "updated_at": "2023-09-03T21:46:11.227Z",
+        "book_id": "5085bfae-947f-4f17-90b5-f33b8de6de87",
+        "order_id": "8919c758-3749-4d95-b551-e3070f514479"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "dd63f411-9bc4-48ad-8619-e27ba98ddb85",
+        "quantity": 46129,
+        "created_at": "2023-09-03T14:01:58.728Z",
+        "updated_at": "2023-09-03T18:45:42.061Z",
+        "book_id": "5085bfae-947f-4f17-90b5-f33b8de6de87",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "5c790ebb-64f5-4c74-b710-fd9b3cdd629e",
+        "quantity": 30124,
+        "created_at": "2023-09-03T23:24:12.193Z",
+        "updated_at": "2023-09-03T17:20:34.764Z",
+        "book_id": "5085bfae-947f-4f17-90b5-f33b8de6de87",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "cb48435c-2845-47ae-9f2e-228caf216866",
+        "quantity": 72612,
+        "created_at": "2023-09-03T17:23:01.169Z",
+        "updated_at": "2023-09-04T03:13:17.793Z",
+        "book_id": "40a04919-c050-40fe-b754-c9e7fc1ec7e6",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "7d9708d5-c8d3-4c41-9aed-c04102ffea9c",
+        "quantity": 20924,
+        "created_at": "2023-09-03T16:35:01.754Z",
+        "updated_at": "2023-09-03T08:06:53.902Z",
+        "book_id": "5085bfae-947f-4f17-90b5-f33b8de6de87",
+        "bookstore_id": "main_entity_pk"
+      },
+      {
+        "id": "75879c90-0585-486a-b859-54211bcb2b2e",
+        "quantity": 79042,
+        "created_at": "2023-09-03T18:30:40.968Z",
+        "updated_at": "2023-09-03T12:19:28.602Z",
+        "book_id": "afe5e036-cb32-4a59-801b-a0f0be308d41",
+        "bookstore_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1fee01f2-0766-4d5c-ade8-e2183291751c",
+        "email": "Zoe84@yahoo.com",
+        "firstName": "Mariano",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1057.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3a6dc0cc-0ac5-4731-9189-d1a55d783b2c",
+        "email": "Annabell.Mann@yahoo.com",
+        "firstName": "Monty",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82774962",
+        "tenantId": null
+      },
+      {
+        "reference": "e12d82f9-eb03-4ef0-ab2d-9ff70e4e4250",
+        "email": "Isaias_Hansen@yahoo.com",
+        "firstName": "Loren",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41954291",
+        "tenantId": null
+      },
+      {
+        "reference": "debf515c-1089-43b8-9095-f2df28b358f0",
+        "email": "Ashlynn.Gislason@gmail.com",
+        "firstName": "Ernest",
+        "lastName": "Boyer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28861109",
+        "tenantId": null
+      },
+      {
+        "reference": "4fa176c2-9729-4fd4-b4f9-4d0343d96230",
+        "email": "Lisette.Stiedemann@hotmail.com",
+        "firstName": "Hermann",
+        "lastName": "Grady",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84481766",
+        "tenantId": null
+      }
+    ]
+  }
+]
